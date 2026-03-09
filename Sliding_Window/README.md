@@ -1,3 +1,4 @@
+```
 int slidingWindow(vector<int>& nums) {
     int left = 0, right = 0;
     int current_state = 0; // 視窗內的累計值或狀態
@@ -20,3 +21,4 @@ int slidingWindow(vector<int>& nums) {
     }
     return ans;
 }
+```
